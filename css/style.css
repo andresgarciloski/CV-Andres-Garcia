@@ -1,111 +1,73 @@
+body {
+    background-color: #e9f0f9;
+  }
+  .navbar {
+    background-color: #007bff;
+  }
+  .navbar-brand {
+    color: white;
+  }
+  .nav-link {
+    color: white;
+  }
+  .nav-link:hover {
+    color: #ffffff80;
+  }
+  .jumbotron {
+    background-color: #007bff;
+    color: white;
+  }
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
 
-    body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            color: black;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(https://wallpaperaccess.com/full/3632592.jpg);
-        }
 
-        #header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            background: rgba(0, 0, 0, .8);
-            padding: 20px;
-            
-        }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .jumbotron {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .jumbotron p.lead {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron hr {
+    border-top: 1px solid #ffffff80;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron p.text-justify {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
 
-        h1 {
-            font-size: 35px;
-            margin: 0;
-            color: white;
-        }
 
-        #contact-info {
-            display: flex;
-            flex-direction: column;
-        }
-
-        #contact-info p {
-            margin: 5px 0;
-            color: #fff;
-        }
-
-        #contact-info img {
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-        }
-
-        #photo {
-            max-width: 175px;
-            max-height: 300px;
-            border-radius: 10px;
-            margin: 0 auto;
-        }
-
-        #summary,
-        #education,
-        #skills,
-        #languages,
-        #competences,
-        #certificates {
-            margin-top: 30px;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        #summary {
-            text-align: center;
-        }
-
-        #education,
-        #skills,
-        #languages,
-        #competences,
-        #certificates {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        #education div,
-        #skills div,
-        #languages div,
-        #competences div,
-        #certificates div {
-            width: 48%;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        ul li {
-            margin-bottom: 5px;
-        }
-
-        #certificates p {
-            margin: 0;
-        }
-
-        span {
-            font-weight: bold;
-        }
-
-        #titulo {
-            font-size: 20px;
-        }
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #007bff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
