@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>BECAS</title>
+    <link rel="stylesheet" type="text/css" href="CSS/pag2.css">    
+</head>
+<body>
+	<header>
+        <h1>BECAS</h1>
+    </header>
+	
+    <section class="table-section">
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Becas Internas</b></th>
+                    <th><b>Becas Externas</b></th>
+                </tr>
+            </thead>
+            <body>
+                <tr>
+                    <td class="fr">
+                        <ul id="listaInternas">
+                            <a href="Beca Escasos Recursos.html" onclick="mostrarAlerta('Beca Escasos Recursos')"><li>Beca Escasos Recursos</li></a>
+							<br/>
+							<a href="Beca Académica.html" onclick="mostrarAlerta('Beca Académica')"><li>Beca Académica </li></a>
+							<br/>
+							<a href="Beca Deportiva.html" onclick="mostrarAlerta('Beca Deportiva')"><li>Beca Deportiva </li></a>
+							<br/>
+							
+                        </ul>
+                    </td>
+                    <td class="fr">
+                        <ul id="listaExternas">
+                            <a href="Becas por Convenio o Acuerdo Interinstitucional.html" onclick="mostrarAlerta('Becas por Convenio o Acuerdo Interinstitucional')"><li>Becas por Convenio o Acuerdo Interinstitucional</li></a>
+							<br/>
+							<a href= "Beca Diputados.html" onclick="mostrarAlerta('Beca Diputados')"><li>Beca Diputados</li></a>
+							<br/>     
+							 <a href="Beca de Manutención Federal.html" onclick="mostrarAlerta('Beca de Manutención Federal')"><li>Beca de Manutención Federal </li></a>
+							<br/>
+                            <a href="Beca Fundación UANL.html" onclick="mostrarAlerta('Beca Fundación UANL')"><li>Beca Fundación UANL </li></a>
+							<br/>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="button-section">
+		<button><a href="Beca Aplicada.html" onclick="mostrarAlerta('Beca Aplicada')">Beca Aplicada</a></button>
+    </section>
+
+    <div id="home-button">
+        <a href="/index.html">
+          <img src="/img/home.png" alt="Home">
+        </a>
+      </div>
+	
+	
+
+    <footer>
+         <a href="PONER LINK DEL INDEX AQUI"><button class="footer-button" id="btnPaginaPrincipal">Página Principal</button></a>
+    </footer>
+   
+    <script>
+        function mostrarAlerta(texto) {
+            alert("¡Has hecho clic en " + texto + "!");
+        }
+    </script>
+</body>
+</html>

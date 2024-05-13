@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica;
+    margin: 0;
+}
+
+header {
+   background-color: #F3B9D7;
+    color: #77128F;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin:0;
+}
+
+.table-section {
+    margin: 30px auto;
+    width: 80%;
+	
+}
+
+table {
+    width: 100%;
+	display: table;
+}
+
+.fr{
+	background: #F6EEFF;
+	text-align: center;
+}
+
+td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 5px solid white;
+	
+}
+
+th {
+    background-color: #F6EEFF;
+    color: #77128F;
+	
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+	
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.button-section button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #F3B9D7;
+    color: #77128F;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+	position: center-right;
+	bottom: 20px;
+    
+}
+
+
+footer {
+    text-align: center;
+	margin-top: auto;
+    
+}
+
+.footer-button {
+    padding: 15px 25px;
+    background-color: #F3B9D7;
+    color: #77128F;
+    border: 10px;
+	border-radius: 5px;
+    cursor: pointer;
+	position: fixed;
+	font-size: 18px;
+	bottom: 20px;
+	left: 45%;
+}
+
+.text-section {
+    text-align: center;
+    margin-top: 30px;
+	margin-bottom: 0px;
+	
+}
+
+.text-section textarea {
+    width: 75%;
+	color: blue;
+    font-size: 18px;
+    border: 0; 
+    background-color: white; 
+    resize: none;
+    cursor: pointer; 
+	font-family: Helvetica;
+}
+
+#home-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  #home-button img {
+    width: 50px;
+    height: 50px;
+  }

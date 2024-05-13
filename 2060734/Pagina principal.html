@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Pagina principal CV</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Pag1.css">    
+</head>
+<body>
+    <header>
+        <h1>Página Principal CV</h1>
+    </header>
+    
+    <section class="yop">
+        <img src="imagenes/yop.jpg" alt="Tu fotografía">
+    </section>
+    
+    <section class="button-section">
+        <div class="button-row">
+            <button><a href="Academica.html" onclick="mostrarAlerta('Académica')">Académica</a></button>
+            <button><a href="Intereses.html" onclick="mostrarAlerta('Intereses')">Intereses</a></button>
+        </div>
+        <div class="button-row">
+            <button><a href="Laboral.html" onclick="mostrarAlerta('Profesional/Laboral')">Profesional/Laboral</a></button>
+            <button><a href="https://www.linkedin.com/in/ximena-medina-b66439308/" onclick="mostrarAlerta('LinkedIn')">LinkedIn</a></button>
+        </div>
+    </section>
+    <div id="home-button">
+        <a href="/index.html">
+          <img src="/img/home.png" alt="Home">
+        </a>
+      </div>
+    
+	<footer>
+        <button class="footer-button"><a href="Pagina principal.html" onclick="mostrarAlerta('Página Principal')">Página Principal</a></button>
+    </footer>
+
+   
+    <script>
+        function mostrarAlerta(texto) {
+            alert("¡Has hecho clic en " + texto + "!");
+        }
+    </script>
+</body>
+</html>
