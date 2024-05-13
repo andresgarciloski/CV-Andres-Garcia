@@ -39,3 +39,14 @@ h2{
 .contenido-inner {
     margin-top: 50px;
 }
+
+#home-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  #home-button img {
+    width: 50px;
+    height: 50px;
+  }
