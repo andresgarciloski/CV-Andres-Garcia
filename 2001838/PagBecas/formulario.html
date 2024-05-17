@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Beca</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="beca">Beca a la cual quieres aplicar:</label>
+                <input type="text" id="beca" name="beca" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="universidad">Universidad a la que pertenece:</label>
+                <input type="text" id="universidad" name="universidad" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="facultad">Facultad a la que pertenece:</label>
+                <input type="text" id="facultad" name="facultad" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="carrera">Carrera que estudia:</label>
+                <input type="text" id="carrera" name="carrera" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="semestre">Semestre que actualmente está cursando:</label>
+                <input type="number" id="semestre" name="semestre" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="correo_universitario">Correo universitario:</label>
+                <input type="email" id="correo_universitario" name="correo_universitario" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="correo_personal">Correo personal:</label>
+                <input type="email" id="correo_personal" name="correo_personal" required style="background: transparent;">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required style="background: transparent;">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <button onclick="goToColumns()">Atras</button>
+    </div>
+    <script>
+        function goToColumns() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

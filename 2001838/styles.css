@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/*Mi fotoCV*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-container {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*Paginas*/
+
+.pag {
+    text-align: center;
+    color: #2200ff;
+    opacity: 1s;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.pag h1{
+    color: #fff;
+    background-color: #050505;
+}
+.pag h2{
+    color: #f9f3f3;
+}
+.pag h3{
+    color: #f9f3f3;
+    background: #050505;
+}
+.pag p{
+    color: #fff;
+}
+
+button {
+    background-color: #0019b8;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eb0a0a;
+}
+.pag{
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagenes/images.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 140, 255, 0.5);
+}
+
+#home-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  #home-button img {
+    width: 50px;
+    height: 50px;
+  }

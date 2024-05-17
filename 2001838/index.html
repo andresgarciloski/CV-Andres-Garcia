@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="pag1" class="pag">
+    <div class="container">
+        <div class="image-container">
+            <img src="Imagenes/CV.png" alt="Imagen redonda">
+        </div>
+    </div>
+    <h1>Dennis Hervert</h1>
+    <h2>1 PERFIL</h2>
+    <p>Actualmente gente de atencion al cliente en el area de verificaciones, actuando con responsabilidad y entrega  para completar las tareas asignadas. 
+        Capacidad para trabajar en equipo y llevar una buena relacion con los compañeros de trabajo. Facilidad de comunicación y amabilidad
+    </p>
+    <h3>INFORMACIÓN DE CONTACTO</h3>
+    <P>Telefono: 8184085837</P>
+    <p>Correo: dennishervertmty@gmail.com</p>
+    <button onclick="changePage(4)">ANTERIOR</button>
+    <button onclick="changePage(2)">SIGUIENTE</button>
+    
+    
+</div>
+
+<div id="pag2" class="pag" style="display: none;">
+    <div class="container">
+        <div class="image-container">
+            <img src="Imagenes/CV.png" alt="Imagen redonda">
+        </div>
+    </div>
+    <h1>2 EXPERIENCIA LABORAL</h1>
+    <p>Agente de verificaciones desde 2022 hasta la actualidad</p>
+    <p>Betmexico.Htech.</p>
+    <p>Trabajo en equipo para satisfacer las necesidades del cliente, asi como tambien llevar un control de datos contables.</p>
+    <button onclick="changePage(1)">ANTERIOR</button>
+    <button onclick="changePage(3)">SIGUIENTE</button>
+</div>
+
+<div id="pag3" class="pag" style="display: none;">
+    <div class="container">
+        <div class="image-container">
+            <img src="Imagenes/CV.png" alt="Imagen redonda">
+        </div>
+    </div>
+    <h1>3 FORMACIÓN</h1>
+    <p>Escuela Primaria Raul Madero Gzz.</p>
+    <p>Secundaria No.10 Miguel Angel Granados Chapa
+    <p>Preparatoria No. 25 Eduardo Aguirre Pequeño</p>
+    <p>Facultad de Ingeniería Mecánica y Eléctrica (Actualmente en proceso)</p>
+    <button onclick="changePage(2)">ANTERIOR</button>
+    <button onclick="changePage(4)">SIGUIENTE</button>
+</div>
+
+<div id="pag4" class="pag" style="display: none;">
+    <div class="container">
+        <div class="image-container">
+            <img src="Imagenes/CV.png" alt="Imagen redonda">
+        </div>
+    </div>
+    <h1>4 CARACTERÍSTICAS Y COMPETENCIAS CLAVE</h1>
+    <p>•Empatico</p>
+    <p>•Amabilidad y disponibilidad </p>
+    <p>•Organización</p> 
+    <p>•Respeto</p> 
+    <p>•Capacidad de trabajar bajo presion</p> 
+    <p>•Entrega y atencion a las tareas asignadas</p>
+    <button onclick="changePage(3)">ANTERIOR</button>
+    <button onclick="changePage(1)">SIGUIENTE</button>
+</div>
+
+<div id="home-button">
+    <a href="/index.html">
+      <img src="/img/home.png" alt="Home">
+    </a>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
